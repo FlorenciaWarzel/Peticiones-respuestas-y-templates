@@ -37,6 +37,6 @@ router.post('/', async (req, res, next) => {
   var info = await transporter.sendMail(obj);
 
   res.render('index', {
-    message: 'Su mensaje ha sido enviado.',
+    message: 'Su mensaje ha sido enviado. ¡Muchas Gracias!',
   });
 })

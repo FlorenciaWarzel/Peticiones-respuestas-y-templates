@@ -6,6 +6,7 @@ font-family: 'Alfa Slab One', cursive;
 body{
     width: 100%;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 /* Icono Instagram */
 .btn-ig{
@@ -136,7 +137,18 @@ h5{
 
 }
 /* Termina productos */
+/* Mensaje */
+.message{
+    margin-left: 20px;
+    display: flex;
+    background-color: #56ff6d;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
 
+
+}
 /* Pie de pagina */
 footer {
     background-color: rgb(48, 197, 48);
